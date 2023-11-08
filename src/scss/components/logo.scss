@@ -1,0 +1,34 @@
+@import '../config';
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   .logo__circle {
+    min-width: 8rem;
+    min-height: 8rem;
+    border-radius: 50%;
+    border: solid 1rem $primary;
+    display: inline-block;
+   }
+
+   .logo__title{
+    font-size: 3rem;
+    line-height: 3.4rem;
+
+       span:first-child {
+        font-weight: bold;
+       }
+   }
+
+   .logo__subtitle{
+    font-size: 1rem;
+    line-height: 1.4rem;
+
+       span:first-child {
+        font-weight: bold;
+       }
+   }
+}
+

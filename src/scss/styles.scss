@@ -1,0 +1,28 @@
+@import 'config';
+@import './components/logo.scss';
+@import './pages/login.scss';
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    background-color: $bg;
+}
+
+h1 {
+    font-size: 1.8rem;
+    line-height: 2rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+}
+
+.container {
+    display: flex;
+}
+
+.cont-main {
+    border: solid 2px $primary;
+}

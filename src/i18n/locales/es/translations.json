@@ -1,0 +1,28 @@
+{
+  "global": {
+    "title": "MiSubs",
+    "titleA": "Mi",
+    "titleB": "Subs",
+    "titleSub": "Recuerda..."
+  },
+  "months": {
+    "moJan": "enero",
+    "moFeb": "Febrero",
+    "moMar": "marzo",
+    "moApr": "abril",
+    "moMay": "Mayo",
+    "moJun": "Junio",
+    "moJul": "julio",
+    "moAug": "Agosto",
+    "moSep": "Septiembre",
+    "moOct": "Octubre",
+    "moNov": "Noviembre",
+    "moDec": "Diciembre"
+  },
+
+  "locations": {
+    "arag": "Aragua - Venezuela",
+    "dub": "Dublín - Irlanda",
+    "norw": "Lysaker – Noruega"
+  }
+}

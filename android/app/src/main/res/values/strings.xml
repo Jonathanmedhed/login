@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">subscriptions</string>
+    <string name="title_activity_main">subscriptions</string>
+    <string name="package_name">com.subscriptions.subs</string>
+    <string name="custom_url_scheme">com.subscriptions.subs</string>
+</resources>
