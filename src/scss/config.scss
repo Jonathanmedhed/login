@@ -2,9 +2,100 @@ $primary: rgb(38, 181 ,76);
 $primary-dark: rgb(35, 167, 70);
 $primary-light: rgb(42, 199, 84);
 $bg: rgb(241, 241, 241);
-$bg-dark: rgb(226, 226, 226);;
-$bg-light: rgb(253, 253, 253);;
+$bg-dark: rgb(226, 226, 226);
+$bg-light: rgb(253, 253, 253);
+$bg: rgb(241, 241, 241);
+$gray: rgb(204, 204, 204);
+$gray-dark: rgb(160, 160, 160);
+$gray-light: rgb(210, 210, 210);
+$white: white;
 
+/************************************* Buttons ************************************************/
+
+.--bg {
+
+  &-primary {
+    background-color: $primary;
+  }
+
+  &-primary-dark {
+    background-color: $primary-dark;
+  }
+
+  &-primary-light {
+    background-color: $primary-light;
+  }
+
+  &-white {
+    background-color: $white;
+  }
+}
+
+/************************************* Buttons ************************************************/
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.3rem;
+  padding: 0.5rem 0;
+  color: $white;
+  cursor: pointer;
+  //make button text not highlightable
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+/************************************* Display ************************************************/
+
+.--ver {
+  flex-direction: column;
+}
+
+.--hor {
+  flex-direction: row;
+}
+
+.--just-center {
+  justify-content: center;
+}
+
+.--align-center {
+  align-content: center;
+}
+
+.--just-align-center {
+  justify-content: center;
+  align-content: center;
+}
+
+/************************************* Links ************************************************/
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  //make button text not highlightable
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+
+  &:active {
+    opacity: 0.6;
+  }
+}
 
 /************************************* Margin & Padding ************************************************/
 
@@ -141,25 +232,23 @@ $spaceamounts: (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
   margin: 0 0.2rem 0 0;
 }
 
-/************************************* Display ************************************************/
+/************************************* Text ************************************************/
 
-.--ver {
-    flex-direction: column;
-}
+.--text {
 
-.--hor {
-    flex-direction: row;
-}
+  &-primary {
+    color: $primary;
+  }
 
-.--just-center {
-    justify-content: center;
-}
+  &-primary-dark {
+    color: $primary-dark;
+  }
 
-.--align-center {
-    align-content: center;
-}
+  &-primary-light {
+    color: $primary-light;
+  }
 
-.--just-align-center {
-    justify-content: center;
-    align-content: center;
+  &-white {
+    color: $white;
+  }
 }

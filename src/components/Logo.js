@@ -1,13 +1,13 @@
 import React from 'react'
 import { useTranslation } from "react-i18next";
 
-const Logo =({ type, wTitle, wSub }) => {
+const Logo =({ className, wTitle, wSub }) => {
 
     const { t } = useTranslation();
 
     return (
-        <div className={`logo ${ type }`}>
-            <div className={`logo__circle ${ type }`}></div>
+        <div className={`logo ${ className }`}>
+            <div className={`logo__circle ${ className }`}></div>
             {wTitle ? 
                 <span className='logo__title --mt-1'>
                     <span>

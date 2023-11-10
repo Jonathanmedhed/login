@@ -1,5 +1,14 @@
 {
   "global": {
+    "accountNo": "¿No tienes una cuenta?",
+    "accountYes": "Ya tienes cuenta?",
+    "createAcc": "Crear cuenta",
+    "emailLogin": "Correo electrónico",
+    "or": "o",
+    "password":"Contraseña",
+    "passwordRepeat":"Repetir Contraseña",
+    "register": "Registrar",
+    "signIn": "Ingresar",
     "title": "MiSubs",
     "titleA": "Mi",
     "titleB": "Subs",
