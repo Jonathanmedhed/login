@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTranslation } from "react-i18next";
 
-const Logo =({ className, wTitle, wSub }) => {
+const Logo = ({ className, wTitle, wSub }) => {
 
     const { t } = useTranslation();
 
@@ -27,4 +27,4 @@ const Logo =({ className, wTitle, wSub }) => {
     )
 }
 
-export default Logo
+export default Logo;

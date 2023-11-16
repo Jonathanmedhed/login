@@ -10,9 +10,19 @@
     "register": "Register",
     "signIn": "Sign in",
     "title": "MiSubs",
-    "titleA": "Mi",
-    "titleB": "Subs",
+    "titleA": "Log",
+    "titleB": "in",
     "titleSub": "Remember..."
+  },
+
+  "error": {
+    "length": "Password must be 8-16 characters long",
+    "lower": "Password must have at least one lowercase character",
+    "match": "Passwords must match",
+    "noWhite": "Password must not contain whitespaces",
+    "number": "Password must contain at least one digit",
+    "symbol": "Password must contain at least one special symbol (-*!?...)",
+    "upper": "Password must have at least one uppercase character" 
   },
 
   "months": {

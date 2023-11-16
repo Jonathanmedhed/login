@@ -10,10 +10,21 @@
     "register": "Registrar",
     "signIn": "Ingresar",
     "title": "MiSubs",
-    "titleA": "Mi",
-    "titleB": "Subs",
+    "titleA": "Log",
+    "titleB": "in",
     "titleSub": "Recuerda..."
   },
+
+  "error": {
+    "length": "La contraseña debe tener entre 8 y 16 caracteres",
+    "lower": "La contraseña debe tener al menos una minúscula",
+    "match": "Las contraseñas deben coincidir",
+    "noWhite": "La contraseña no debe contener espacios en blanco",
+    "number": "La contraseña debe contener al menos un dígito",
+    "symbol": "La contraseña debe contener al menos un símbolo (-*!?...)",
+    "upper": "La contraseña debe tener al menos una mayúscula" 
+  },
+
   "months": {
     "moJan": "enero",
     "moFeb": "Febrero",

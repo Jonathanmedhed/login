@@ -5,6 +5,7 @@ $bg: rgb(241, 241, 241);
 $bg-dark: rgb(226, 226, 226);
 $bg-light: rgb(253, 253, 253);
 $bg: rgb(241, 241, 241);
+$error: rgb(212, 0, 0);
 $gray: rgb(204, 204, 204);
 $gray-dark: rgb(160, 160, 160);
 $gray-light: rgb(210, 210, 210);
@@ -230,6 +231,21 @@ $spaceamounts: (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 // Right margin
 .--mr-qter {
   margin: 0 0.2rem 0 0;
+}
+
+/************************************* Opacity ************************************************/
+
+$opacityamounts: (0, 1, 2, 3, 4, 5, 6, 7, 8, 9);
+@each $opacity in $opacityamounts {
+  /** Margin */
+  // All around margin
+  .--op-#{$opacity} {
+    opacity: #{$opacity/10};
+  }
+}
+
+.--op-10 {
+  opacity: 1;
 }
 
 /************************************* Text ************************************************/

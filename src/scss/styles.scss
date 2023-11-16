@@ -1,5 +1,6 @@
 @import 'config';
 @import './components/logo.scss';
+@import './components/loader.scss';
 @import './pages/login.scss';
 
 body {
@@ -53,4 +54,11 @@ h2 {
     width: auto;
     min-width: 15rem;
     max-width: 40rem;
+}
+
+.input__error {
+    max-width: 15rem;
+    color: $error;
+    font-size: 0.9rem;
+    line-height: 1.4rem;
 }
