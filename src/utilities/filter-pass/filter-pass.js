@@ -35,3 +35,14 @@ export const checkPasswordValidity = (value) => {
 
   return null;
 }
+
+/**
+ * @param {string} value: passwordValue
+ */
+export const checkEmailValidity = (value) => {
+  const isNotFormat = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  if (!isNotFormat.test(value)) {
+    return "error.email";
+  }
+  return null;
+}

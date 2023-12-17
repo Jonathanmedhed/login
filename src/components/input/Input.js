@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useTranslation } from "react-i18next";
-import { checkPasswordValidity } from '../../utilities/filter-pass/filter-pass';
+import { checkPasswordValidity, checkEmailValidity } from '../../utilities/filter-pass/filter-pass';
 
 /**
  * Container for all pages, takes a children prop
@@ -19,6 +19,12 @@ const Input = ({ className, placeholder, onChange, type, value, error, match }) 
         setPassError(t(checkPasswordValidity(eValue)));
       } else if(match && match !== eValue){
         setPassError(t('error.match'));
+      } else {
+        setPassError(false);
+      }
+    } else if(type === 'email') {
+      if(checkEmailValidity(eValue)){
+        setPassError(t(checkEmailValidity(eValue)));
       } else {
         setPassError(false);
       }

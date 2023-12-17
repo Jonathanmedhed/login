@@ -1,21 +1,28 @@
 {
   "global": {
+    "accountEmail": "Correo de la cuenta",
     "accountNo": "¿No tienes una cuenta?",
     "accountYes": "Ya tienes cuenta?",
     "createAcc": "Crear cuenta",
     "emailLogin": "Correo electrónico",
+    "forgot": "¿Contraseña olvidada?",
+    "goBack": "regresar",
     "or": "o",
     "password":"Contraseña",
     "passwordRepeat":"Repetir Contraseña",
+    "passwordSent":"Se ha enviado un correo electrónico de recuperación de contraseña.",
+    "passwordSent2":"(Si existe una cuenta en nuestro sistema con la dirección de correo electrónico proporcionada)",
+    "recoverPass": "Recuperar",
     "register": "Registrar",
     "signIn": "Ingresar",
     "title": "MiSubs",
-    "titleA": "Log",
-    "titleB": "in",
-    "titleSub": "Recuerda..."
+    "titleA": "Web",
+    "titleB": "app",
+    "titleSub": "mensaje..."
   },
 
   "error": {
+    "email": "Formato invalido",
     "length": "La contraseña debe tener entre 8 y 16 caracteres",
     "lower": "La contraseña debe tener al menos una minúscula",
     "match": "Las contraseñas deben coincidir",

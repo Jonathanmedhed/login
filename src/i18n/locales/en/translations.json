@@ -1,21 +1,28 @@
 {
   "global": {
+    "accountEmail": "Account Email",
     "accountNo": "Don't have an account?",
     "accountYes": "Have an account?",
     "createAcc": "Create account",
     "emailLogin": "Email address",
+    "forgot": "forgot password?",
+    "goBack": "back to login",
     "or": "or",
     "password":"Password",
     "passwordRepeat":"Repeat password",
+    "passwordSent":"A password recovery email has been sent",
+    "passwordSent2":"(If there is an account in out system with the email address provided)",
+    "recoverPass": "Recover",
     "register": "Register",
     "signIn": "Sign in",
     "title": "MiSubs",
-    "titleA": "Log",
-    "titleB": "in",
-    "titleSub": "Remember..."
+    "titleA": "Web",
+    "titleB": "app",
+    "titleSub": "message..."
   },
 
   "error": {
+    "email": "Invalid email address",
     "length": "Password must be 8-16 characters long",
     "lower": "Password must have at least one lowercase character",
     "match": "Passwords must match",
